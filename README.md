@@ -1,10 +1,8 @@
-![GitHub watchers](https://img.shields.io/github/watchers/go-pro0000/middle.messenger.praktikum.yandex?style=social)  
-
 Messenger prototype using JavaScript, Parcel, Handlebars  
 
-Figma: https://www.figma.com/file/aEGXJYkATTtrQgkDag2hA0/Chat-(Copy)?node-id=0%3A1&t=bVSeQHdLk95jIDar-1  
-Netlify: https://ephemeral-yeot-c45208.netlify.app/  
+Figma: https://www.figma.com/file/24EUnEHGEDNLdOcxg7ULwV/Chat?node-id=0%3A1&t=nDekr0AYHiiBvhNK-0  
+Netlify: https://dashing-hummingbird-d556a3.netlify.app/
 
-npm dev — launch developer version,  
-npm run build — build stable version,  
-npm run start — build and run node,  
+npm dev — Запустить сервер в режиме разработчика,  
+npm run build — Запустить сборку проекта,  
+npm run start — Собрать проект и запустить локальный сервер Node.js,  
