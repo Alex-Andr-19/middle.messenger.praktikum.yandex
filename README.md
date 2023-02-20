@@ -1,3 +1,5 @@
+### Sprint 1
+
 Messenger prototype using JavaScript, Parcel, Handlebars  
 
 Figma: https://www.figma.com/file/24EUnEHGEDNLdOcxg7ULwV/Chat?node-id=0%3A1&t=nDekr0AYHiiBvhNK-0  
