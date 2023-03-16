@@ -1,5 +1,5 @@
 const express = require('express');
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
  
 const app = express();
 app.use(express.static(__dirname));
@@ -9,5 +9,5 @@ app.get('/', function(req, res) {
 });
  
 app.listen(PORT, () => {
-  console.log(`Мой сервис запущен на ${PORT} порту!`);
+  console.log(`Мой текст в логе после запуска ${PORT}!`);
 });
