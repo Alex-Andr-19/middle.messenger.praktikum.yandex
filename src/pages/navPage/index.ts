@@ -18,7 +18,7 @@ export class NavPage extends Block {
       text: 'Вход',
       events: {
         click: () => {
-          this.router.go('/signin')
+          renderDOM('signIn')
         },
       },
     });
@@ -27,7 +27,7 @@ export class NavPage extends Block {
       text: 'Регистрация',
       events: {
         click: () => {
-          this.router.go('/signup')
+          renderDOM('signUp')
         },
       },
     });
@@ -36,7 +36,7 @@ export class NavPage extends Block {
       text: 'Диалоги',
       events: {
         click: () => {
-          this.router.go('/dialogs')
+          renderDOM('dialogsPage')
         },
       },
     });
@@ -45,7 +45,7 @@ export class NavPage extends Block {
       text: 'Профиль',
       events: {
         click: () => {
-          this.router.go('/profile')
+          renderDOM('profile')
         },
       },
     });
@@ -54,7 +54,7 @@ export class NavPage extends Block {
       text: '404',
       events: {
         click: () => {
-          this.router.go('/404')
+          renderDOM('pageNotFound')
         },
       },
     });
@@ -63,7 +63,7 @@ export class NavPage extends Block {
       text: '500',
       events: {
         click: () => {
-          this.router.go('/500')
+          renderDOM('serverError')
         },
       },
     });

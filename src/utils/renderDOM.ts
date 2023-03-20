@@ -20,6 +20,7 @@ export function renderDOM(route: keyof typeof ROUTES) {
     const root = document.querySelector('#app');
 
     root!.innerHTML = '';
+    console.log(root);
 
     const PageComponent = ROUTES[route];
 
