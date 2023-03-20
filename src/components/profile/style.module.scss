@@ -54,7 +54,7 @@
                 span {
                     color: var(--white);
                     display: inline-block;
-                    font-family: Inter;
+                    font-family: sans-serif;
                     font-size: 13px;
                     font-style: normal;
                     font-weight: 500;
@@ -67,7 +67,7 @@
 
         &__name {
             color: var(--black);
-            font-family: Inter;
+            font-family: sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 600;
@@ -84,7 +84,7 @@
             &__changeData,
             &__changePassword,
             &__exit {
-                font-family: Inter;
+                font-family: sans-serif;
                 font-size: 13px;
                 font-style: normal;
                 font-weight: 500;
@@ -120,7 +120,7 @@ input {
 span {
     color: var(--red);
     display: inline-block;
-    font-family: Inter;
+    font-family: sans-serif;
     font-size: 9px;
     font-style: normal;
     font-weight: 400;
