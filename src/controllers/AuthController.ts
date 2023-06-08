@@ -19,6 +19,9 @@ export class AuthController {
             this.router.go('/settings');
         } catch (e: any) {
             console.error(e);
+            if (e.reason === "User already in system") {
+                this.router.go('/settings');
+            }
         }
     }
 
