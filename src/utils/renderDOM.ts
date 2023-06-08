@@ -1,7 +1,7 @@
-import { SignUpPage } from '../pages/auth/signup';
+import SignUpPage from '../pages/auth/signup';
 import SignInPage from '../pages/auth/signin';
-import { NavPage } from '../pages/navPage';
-import { DialogsPage } from '../pages/dialogsPage';
+import NavPage from '../pages/navPage';
+import DialogsPage from '../pages/dialogsPage';
 import ProfilePage from '../pages/profilePage';
 import PageNotFound from '../pages/pageNotFound';
 import ServerError from '../pages/serverError';
@@ -20,7 +20,6 @@ export function renderDOM(route: keyof typeof ROUTES) {
     const root = document.querySelector('#app');
 
     root!.innerHTML = '';
-    console.log(root);
 
     const PageComponent = ROUTES[route];
 
