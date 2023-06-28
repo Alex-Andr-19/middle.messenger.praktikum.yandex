@@ -36,6 +36,7 @@ export class UsersController {
             console.log(data);
             
 
+            this.router.go('/');
             this.router.go('/profile');
         } catch (e: any) {
             console.error(e);
