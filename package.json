@@ -6,7 +6,9 @@
     "start": "webpack serve",
     "build": "webpack --mode production",
     "stylelint": "stylelint **/*.scss --fix",
-    "eslint": "eslint **/*.ts --fix"
+    "eslint": "eslint **/*.ts --fix",
+    "test": "mocha --require ts-node/register --require ./mochaSetup.js './src/**/*.test.ts'",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars-precompile": "1.0.1",
