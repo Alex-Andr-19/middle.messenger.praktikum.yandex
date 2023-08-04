@@ -2,8 +2,10 @@
   "name": "parcel-handlebars",
   "version": "1.0.0",
   "license": "MIT",
-  "hooks": {
-    "pre-commit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "scripts": {
     "start": "webpack serve",
